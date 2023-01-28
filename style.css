@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -8,27 +8,33 @@ body {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
+    padding: 0px 206px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    padding-top: 18px;
 }
 
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: 900;
 }
+
 
 h1 {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+    margin: 0px;
 }
 
 p {
     font-size: 18px;
     color: #e5e7eb;
+    margin: 0px;
 }
 
 ul {
@@ -46,6 +52,8 @@ a {
 
 .container {
     display: flex;
+    padding: 120px 0px;
+    gap: 24px;
 }
 
 .content,
@@ -68,6 +76,11 @@ button {
     border-radius: 5px;
     color: #e5e7eb;
     padding: 6px 24px;
+    margin: 12px 0px;
     font-size: 18px;
     font-weight: 500;
+}
+
+#hero {
+    border: 0px;
 }
