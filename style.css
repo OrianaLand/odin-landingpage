@@ -131,7 +131,6 @@ h2 {
 }
 
 /* -----SECTION THREE STYLING----- */
-
 .section-three {
     background-color: #e5e7eb;
 }
@@ -154,8 +153,7 @@ h2 {
     font-weight: 900;
 }
 
-/*-----SECTION ONE STYLING-----*/
-
+/*-----SECTION FOUR STYLING-----*/
 .section-four {
     display: flex;
     justify-content: center;
@@ -179,4 +177,13 @@ h3 {
 
 #sub {
     border: 2px solid #e5e7eb;
+}
+
+/*-----FOOTER STYLING-----*/
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 36px;
 }
