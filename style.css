@@ -153,3 +153,30 @@ h2 {
     text-align: end;
     font-weight: 900;
 }
+
+/*-----SECTION ONE STYLING-----*/
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    padding: 103px 206px;
+}
+
+.signup {
+    background-color: #3882f6;
+    display: flex;
+    flex: 1;
+    border-radius: 6px;
+    padding: 36px 84px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    margin: 0px;
+    color: #e5e7eb;
+}
+
+#sub {
+    border: 2px solid #e5e7eb;
+}
